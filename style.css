@@ -124,11 +124,13 @@ p span{color:#FF8367;
     .inquiry-part-two .link-button{
         margin: 110px ;
     }
-    .review{width: 80%;
+    .review{
+        color:white;
+        width: 80%;
         margin: 100px auto;
         font-size: 72px;
         text-align: center;
-        background-color: white;
+        background-image:linear-gradient(90deg, #ff7e61, #fd5d5d);
         height: 500px;
         box-shadow: 1px 1px 10px grey;
         border-radius: 510px;
