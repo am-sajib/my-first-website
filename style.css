@@ -2,9 +2,10 @@ body{color:#3e3e3e;
     font-size: 24px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.banner-first{
+.banner-first, .banner-second{
      height:600px;
     margin-top: 180px;
+    margin-bottom: 200px;
    
 }
 
@@ -17,9 +18,10 @@ h1{
     font-family: 'Bebas Neue', cursive;
     text-transform: uppercase;
     font-size: 80px;
-    margin: 0px;
+    margin: 0px auto;
     color: #363958;
     font-weight: 500;
+    
 }
 .name-highlight{
     color:#FF8367;
@@ -41,28 +43,15 @@ p span{color:#FF8367;
 .half-length img{
     width: 80%;
     height: 80%;
-   
- 
-
 }
-
-.banner-second{
-  
-    height:600px;
-    margin-bottom: 200px;
-}
-.banner-second .half-length h1{
-    padding-top: 50px;
-    }
 .latest-project-background{
     background-color: #F8F9FC;
-   
     margin-bottom: 200px;
     height: 900px;
     padding-top: 100px;
 }
 .latest-projects{
-    width: 90%;
+    width: 91%;
     height:800px;
     margin: 0px auto;
     }
@@ -72,10 +61,8 @@ p span{color:#FF8367;
     color: #363958;
     text-transform: uppercase;
     text-align: center;
-    font-size: 64px;
-   
-   
-    
+    font-size: 64px;   
+    letter-spacing: 0.06em; 
 }
 .latest-projects h3 span{
     color: #f46060;;
@@ -87,8 +74,6 @@ p span{color:#FF8367;
     border-radius: 10px;
     background-color: white;
     box-shadow: 10px 10px 40px gray;
- 
-
 }
 .project-content{
     padding: 15px;
@@ -107,9 +92,10 @@ p span{color:#FF8367;
      height: 300px;
 }
 .inquiry-part-one{
+    letter-spacing: 0.06em;
     font-family: 'Bebas Neue', cursive;
     color: white;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 64px;
   
     width: 55%;
@@ -146,12 +132,9 @@ p span{color:#FF8367;
         float: left;
         font-size: 32px;
     }
-.footer{
-    text-align: center;
-   
-}
 .footer h4, .footer h2{
     margin: 0px 0px;
+    text-align: center;
 }
 .footer h4{
     color: #696871;
