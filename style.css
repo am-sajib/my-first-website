@@ -1,0 +1,30 @@
+
+.top-banner{
+    border:1px solid red;
+    height:600px;
+    margin-top: 200px;
+}
+.half-length{
+    width: 40%;
+    margin-left: 5%;
+    float: left;
+}
+h1{
+    text-transform: uppercase;
+}
+#my-name{
+    color:blue;
+}
+p span{color:chartreuse;
+    text-transform: capitalize;}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    background-image:linear-gradient(90deg, red, blue);
+    padding: 20px 60px;
+    border-radius: 5px;
+    display: inline-block; /*should be checked in the course*/
+}
+.half-length img{
+    width: 100%;
+}
